@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-rk^fiu2ihtk)-xir=3ky^fdkm=xm0xde!f9$%=@92zrmk!96tj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['peitel-backend.onrender.com']
+ALLOWED_HOSTS = ['peitel-backend.onrender.com','https://peitel-backend.onrender.com']
 
 
 # Application definition
@@ -131,5 +131,5 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://peitelbackend.onrender.com",
+    "https://peitel-backend.onrender.com",
 ]
